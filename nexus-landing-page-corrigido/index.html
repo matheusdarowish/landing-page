@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101126">
+  <meta name="description" content="Nexus é uma demonstração de landing page para uma plataforma SaaS de gestão de projetos, fluxos de trabalho e métricas.">
+  <meta name="author" content="Projeto demonstrativo de portfólio">
+  <meta property="og:title" content="Nexus — Clareza para fazer o trabalho avançar">
+  <meta property="og:description" content="Projetos, tarefas e indicadores reunidos em uma experiência de gestão moderna.">
+  <meta property="og:type" content="website">
+  <title>Nexus — Gestão inteligente de projetos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="topo">
+    <div class="container nav-wrap">
+      <a class="brand" href="#topo" aria-label="Nexus, início">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M7 7.5h7.2a4.8 4.8 0 0 1 4.8 4.8v12.2H12a5 5 0 0 1-5-5V7.5Z" fill="currentColor"/><path d="M25 24.5h-7.2a4.8 4.8 0 0 1-4.8-4.8V7.5H20a5 5 0 0 1 5 5v12Z" fill="#B8F36B"/></svg>
+        </span>
+        <span class="brand-name">nexus<span>.io</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="primary-nav" aria-label="Navegação principal">
+        <a href="#recursos">Recursos</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#planos">Planos</a>
+        <a href="#faq">Perguntas frequentes</a>
+      </nav>
+      <a class="button button-small button-dark nav-cta" href="#planos">Explorar planos <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero section-dark">
+      <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow eyebrow-light"><span class="status-dot"></span> Uma forma mais clara de trabalhar</div>
+          <h1>Menos caos.<br><span>Mais movimento.</span></h1>
+          <p class="hero-description">Projetos, tarefas e indicadores em um só lugar. O Nexus transforma trabalho espalhado em progresso que toda a equipe consegue enxergar.</p>
+          <div class="hero-actions">
+            <button class="button button-lime open-modal" data-plan="Pro" type="button">Conhecer o Nexus <span aria-hidden="true">↗</span></button>
+            <a class="button button-ghost" href="#recursos">Ver como funciona <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-proof">
+            <div class="avatar-stack" aria-hidden="true"><span>J</span><span>M</span><span>A</span><span>+</span></div>
+            <div><strong>Feito para equipes em movimento</strong><small>Interface demonstrativa para projeto de portfólio</small></div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Prévia ilustrativa do painel Nexus">
+          <div class="visual-orbit orbit-one" aria-hidden="true"></div>
+          <div class="visual-orbit orbit-two" aria-hidden="true"></div>
+          <div class="dashboard-window">
+            <div class="dashboard-topbar">
+              <div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+              <span class="window-label">workspace / overview</span>
+              <span class="topbar-avatar">MD</span>
+            </div>
+            <div class="dashboard-layout">
+              <aside class="dashboard-sidebar" aria-hidden="true">
+                <div class="sidebar-logo"><span class="mini-mark">N</span><span>Nexus</span></div>
+                <div class="sidebar-item active"><b>◫</b> Visão geral</div>
+                <div class="sidebar-item"><b>▦</b> Projetos</div>
+                <div class="sidebar-item"><b>✓</b> Minhas tarefas</div>
+                <div class="sidebar-item"><b>◷</b> Relatórios</div>
+                <div class="sidebar-caption">ESPAÇO DE TRABALHO</div>
+                <div class="team-line"><i class="team-dot purple"></i> Produto</div>
+                <div class="team-line"><i class="team-dot lime"></i> Marketing</div>
+                <div class="team-line"><i class="team-dot orange"></i> Operações</div>
+              </aside>
+              <div class="dashboard-main">
+                <div class="dash-greeting"><div><small>VISÃO GERAL · DEMONSTRAÇÃO</small><h3>Bom dia, Matheus <span>✦</span></h3><p>Aqui está o panorama do seu espaço.</p></div><span class="range-pill">Últimos 30 dias⌄</span></div>
+                <div class="metric-grid">
+                  <div class="metric-card"><div class="metric-label">Projetos ativos <span>↗</span></div><strong>12</strong><small class="metric-up">↑ 2 neste mês</small></div>
+                  <div class="metric-card"><div class="metric-label">Tarefas concluídas <span>✓</span></div><strong>84</strong><small class="metric-up">↑ 12,8% vs. mês anterior</small></div>
+                  <div class="metric-card"><div class="metric-label">No prazo <span>◷</span></div><strong>92<em>%</em></strong><small class="metric-neutral">Meta: 90%</small></div>
+                </div>
+                <div class="dash-panels">
+                  <div class="chart-card">
+                    <div class="panel-heading"><div><strong>Ritmo de entrega</strong><small>Tarefas concluídas por semana</small></div><span class="chart-key"><i></i> Entregas</span></div>
+                    <div class="chart-area" aria-label="Gráfico ilustrativo de entregas semanais">
+                      <div class="chart-y"><span>40</span><span>30</span><span>20</span><span>10</span></div>
+                      <div class="bar-chart"><i style="--h:39%"></i><i style="--h:54%"></i><i style="--h:46%"></i><i style="--h:67%"></i><i style="--h:62%"></i><i style="--h:81%"></i><i style="--h:92%"></i><i style="--h:73%"></i></div>
+                    </div>
+                    <div class="chart-x"><span>Sem. 1</span><span>Sem. 2</span><span>Sem. 3</span><span>Sem. 4</span></div>
+                  </div>
+                  <div class="tasks-card">
+                    <div class="panel-heading"><div><strong>Prioridades</strong><small>O que vem agora</small></div><span class="more-dots">···</span></div>
+                    <div class="task-row"><span class="task-check done">✓</span><span><b>Revisar fluxo de onboarding</b><small>Produto · Hoje</small></span><em class="task-tag green-tag">Concluído</em></div>
+                    <div class="task-row"><span class="task-check"></span><span><b>Landing page v2</b><small>Marketing · Amanhã</small></span><em class="task-tag blue-tag">Em curso</em></div>
+                    <div class="task-row"><span class="task-check"></span><span><b>Validar métricas</b><small>Dados · 25 out.</small></span><em class="task-tag amber-tag">Pendente</em></div>
+                  </div>
+                </div>
+                <div class="dashboard-footnote"><span class="live-pulse"></span> Prévia de interface · dados fictícios para demonstração</div>
+              </div>
+            </div>
+          </div>
+          <div class="floating-note note-top"><span class="note-icon lime-icon">↗</span><span><strong>Visão compartilhada</strong><small>Todo mundo na mesma página</small></span></div>
+          <div class="floating-note note-bottom"><span class="note-icon purple-icon">✦</span><span><strong>Foco no que importa</strong><small>Prioridades sem ruído</small></span></div>
+        </div>
+      </div>
+      <div class="container hero-bottom-line"><span>PLANEJAMENTO</span><i></i><span>COLABORAÇÃO</span><i></i><span>VISIBILIDADE</span><i></i><span>RESULTADOS</span></div>
+    </section>
+
+    <section class="logo-strip" aria-label="Áreas de trabalho">
+      <div class="container logo-strip-inner"><span class="strip-intro">Um espaço para conectar</span><span><b>◫</b> Projetos</span><span><b>✳</b> Pessoas</span><span><b>⌁</b> Processos</span><span><b>▤</b> Indicadores</span><span><b>↗</b> Resultados</span></div>
+    </section>
+
+    <section class="section features-section" id="recursos">
+      <div class="container">
+        <div class="section-heading centered"><span class="eyebrow">MENOS FERRAMENTAS SOLTAS</span><h2>O trabalho flui melhor<br><span>quando tudo se conecta.</span></h2><p>Uma visão central para acompanhar o andamento, identificar gargalos e ajudar sua equipe a sair do planejamento para a entrega.</p></div>
+        <div class="features-grid">
+          <article class="feature-card feature-card-main"><div class="feature-icon icon-violet"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="7" height="7" rx="2"/><rect x="14" y="4" width="7" height="5" rx="2"/><rect x="14" y="12" width="7" height="8" rx="2"/><rect x="3" y="14" width="7" height="6" rx="2"/></svg></div><span class="card-kicker">01 / ORGANIZAÇÃO</span><h3>Projetos com contexto</h3><p>Reúna objetivos, responsáveis, prazos e entregas em um espaço que deixa claro o que precisa acontecer — e por quê.</p><a href="#como-funciona" class="text-link">Entenda o fluxo <span>↗</span></a><div class="mini-board" aria-hidden="true"><div class="mini-board-head"><span>Projeto de lançamento</span><span>•••</span></div><div class="mini-board-columns"><div><i></i><i></i><i></i></div><div><i></i><i></i></div><div><i></i><i></i><i></i></div></div></div></article>
+          <article class="feature-card"><div class="feature-icon icon-lime"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 9.5 17 19 7.5"/><path d="M21 12a9 9 0 1 1-2.64-6.36"/></svg></div><span class="card-kicker">02 / EXECUÇÃO</span><h3>Ritmo sem ruído</h3><p>Visualize prioridades e etapas com uma leitura rápida do que está em andamento, bloqueado ou concluído.</p><div class="progress-demo" aria-hidden="true"><div class="progress-label"><span>Progresso do projeto</span><strong>72%</strong></div><div class="progress-track"><i></i></div><div class="progress-foot"><span>18 de 25 tarefas</span><span>+12% nesta semana</span></div></div></article>
+          <article class="feature-card"><div class="feature-icon icon-orange"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18"/><path d="m7 14 4-4 3 3 6-7"/><path d="M16 6h4v4"/></svg></div><span class="card-kicker">03 / INTELIGÊNCIA</span><h3>Indicadores que orientam</h3><p>Transforme atividade em sinais claros para tomar decisões com mais contexto, sem depender de planilhas dispersas.</p><div class="sparkline" aria-hidden="true"><span style="--bar:24%"></span><span style="--bar:38%"></span><span style="--bar:34%"></span><span style="--bar:49%"></span><span style="--bar:45%"></span><span style="--bar:65%"></span><span style="--bar:72%"></span><span style="--bar:88%"></span><span style="--bar:78%"></span><span style="--bar:100%"></span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section workflow-section" id="como-funciona">
+      <div class="container workflow-grid">
+        <div class="workflow-copy"><span class="eyebrow">UM FLUXO MAIS INTELIGENTE</span><h2>Da primeira ideia<br>à entrega final.</h2><p>O Nexus foi pensado para tornar o progresso visível em cada etapa. Menos tempo procurando atualizações. Mais tempo fazendo o trabalho avançar.</p>
+          <div class="workflow-steps">
+            <div class="workflow-step"><span>01</span><div><h3>Planeje com clareza</h3><p>Defina objetivos, etapas, responsáveis e datas importantes.</p></div></div>
+            <div class="workflow-step"><span>02</span><div><h3>Colabore em contexto</h3><p>Organize tarefas e acompanhe mudanças sem perder o fio da conversa.</p></div></div>
+            <div class="workflow-step"><span>03</span><div><h3>Aprenda com os dados</h3><p>Use indicadores para entender o ritmo e decidir os próximos passos.</p></div></div>
+          </div>
+          <button class="button button-dark open-modal" data-plan="Pro" type="button">Explorar demonstração <span aria-hidden="true">↗</span></button>
+        </div>
+        <div class="workflow-visual">
+          <div class="workflow-glow" aria-hidden="true"></div>
+          <div class="kanban-window">
+            <div class="kanban-header"><div><span class="tiny-label">PROJETO EM DESTAQUE</span><h3>Lançamento do produto</h3></div><span class="kanban-menu">···</span></div>
+            <div class="kanban-meta"><span><i class="status-dot dark-dot"></i> Em andamento</span><span>Prazo · 30 out.</span></div>
+            <div class="kanban-progress"><div><span>Progresso geral</span><b>68%</b></div><span class="kanban-progress-track"><i></i></span></div>
+            <div class="kanban-columns">
+              <div class="kanban-column"><div class="kanban-col-title"><span><i class="col-dot todo"></i>A fazer</span><b>2</b></div><div class="kanban-task"><small>DESIGN</small><strong>Definir identidade visual</strong><div class="task-foot"><span class="mini-avatar av-pink">LA</span><span>26 out.</span></div></div><div class="kanban-task"><small>CONTEÚDO</small><strong>Revisar textos da página</strong><div class="task-foot"><span class="mini-avatar av-blue">RS</span><span>27 out.</span></div></div><button class="add-task" type="button" tabindex="-1">+ Adicionar tarefa</button></div>
+              <div class="kanban-column"><div class="kanban-col-title"><span><i class="col-dot doing"></i>Em curso</span><b>2</b></div><div class="kanban-task"><small>DESENVOLVIMENTO</small><strong>Implementar navegação</strong><div class="task-foot"><span class="mini-avatar av-green">MD</span><span>Hoje</span></div></div><div class="kanban-task"><small>ANÁLISE</small><strong>Validar eventos principais</strong><div class="task-foot"><span class="mini-avatar av-purple">AC</span><span>28 out.</span></div></div></div>
+              <div class="kanban-column"><div class="kanban-col-title"><span><i class="col-dot done"></i>Concluído</span><b>3</b></div><div class="kanban-task completed-task"><small>ESTRATÉGIA</small><strong>Mapear público-alvo</strong><div class="task-foot"><span class="mini-avatar av-orange">JP</span><span>Concluído</span></div></div><div class="kanban-task completed-task"><small>PRODUTO</small><strong>Definir escopo inicial</strong><div class="task-foot"><span class="mini-avatar av-pink">LA</span><span>Concluído</span></div></div></div>
+            </div>
+            <div class="kanban-bottom"><span><i class="live-pulse"></i> Atualização ilustrativa</span><span>Equipe Nexus ↗</span></div>
+          </div>
+          <div class="workflow-sticker"><span>✦</span><div><strong>Todo avanço conta.</strong><small>Uma etapa de cada vez.</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section insights-section">
+      <div class="container insights-panel">
+        <div class="insights-copy"><span class="eyebrow eyebrow-light">VISÃO EM TEMPO REAL</span><h2>Decisões melhores<br>começam com <span>clareza.</span></h2><p>Enxergue o ritmo dos projetos, acompanhe entregas e identifique onde a atenção da equipe faz mais diferença.</p><ul class="check-list"><li><span>✓</span> Indicadores reunidos em uma única visão</li><li><span>✓</span> Progresso compreensível de relance</li><li><span>✓</span> Contexto para priorizar os próximos passos</li></ul><a href="#planos" class="button button-lime">Ver opções de plano <span aria-hidden="true">↗</span></a></div>
+        <div class="insights-visual" aria-label="Painel ilustrativo de métricas">
+          <div class="insights-card insights-card-large"><div class="insights-card-head"><div><small>PROGRESSO DAS ENTREGAS</small><strong>Visão do trimestre</strong></div><span class="pill-positive">+18,4%</span></div><div class="line-chart" aria-hidden="true"><div class="chart-lines"><i></i><i></i><i></i><i></i></div><svg viewBox="0 0 420 155" preserveAspectRatio="none"><defs><linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#b8f36b" stop-opacity=".3"/><stop offset="100%" stop-color="#b8f36b" stop-opacity="0"/></linearGradient></defs><path d="M0 130 C28 122 36 92 65 103 S111 114 135 76 S175 90 205 65 S251 81 275 43 S317 64 350 25 S389 37 420 9 L420 155 L0 155Z" fill="url(#chartFill)"/><path d="M0 130 C28 122 36 92 65 103 S111 114 135 76 S175 90 205 65 S251 81 275 43 S317 64 350 25 S389 37 420 9" fill="none" stroke="#b8f36b" stroke-width="3" stroke-linecap="round"/></svg></div><div class="line-chart-labels"><span>AGO</span><span>SET</span><span>OUT</span><span>NOV</span><span>DEZ</span></div><div class="chart-data"><div><small>Entregas concluídas</small><strong>248</strong></div><div><small>Dentro do prazo</small><strong>92%</strong></div><div><small>Projetos ativos</small><strong>12</strong></div></div></div>
+          <div class="insights-card insights-card-small"><div class="donut" aria-hidden="true"><span>76<small>%</small></span></div><div><small>CAPACIDADE DA EQUIPE</small><strong>Boa distribuição</strong><p>Capacidade planejada para as próximas entregas.</p></div></div>
+          <p class="demo-disclaimer">Métricas e gráficos fictícios, usados apenas para demonstrar a interface.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pricing-section" id="planos">
+      <div class="container">
+        <div class="section-heading centered"><span class="eyebrow">PLANOS SIMPLES</span><h2>O plano certo para<br><span>o próximo passo.</span></h2><p>Escolha uma estrutura que acompanha seu momento. Sem letras miúdas nesta demonstração.</p></div>
+        <div class="billing-control"><span class="billing-label active" id="monthly-label">Mensal</span><label class="billing-switch"><input type="checkbox" id="billing-toggle" aria-label="Alternar para cobrança anual"><span class="billing-slider"></span></label><span class="billing-label" id="annual-label">Anual <em>20% de desconto</em></span></div>
+        <div class="pricing-grid">
+          <article class="price-card"><div class="plan-topline"><span class="plan-icon starter-icon">◫</span><span class="plan-label">PARA COMEÇAR</span></div><h3>Starter</h3><p class="plan-description">Para profissionais independentes e projetos em fase inicial.</p><div class="price-line"><span class="currency">R$</span><strong id="price-starter">39</strong><span class="period" id="period-starter">/mês</span></div><p class="billing-note" id="note-starter">Cobrança mensal, sem fidelidade.</p><a class="button button-outline open-modal" href="#planos" data-plan="Starter">Escolher Starter <span>↗</span></a><div class="plan-divider"></div><p class="includes-title">O que está incluído</p><ul class="plan-list"><li><span>✓</span> Até 5 projetos ativos</li><li><span>✓</span> Visão geral de tarefas</li><li><span>✓</span> Métricas essenciais</li><li><span>✓</span> Suporte por e-mail</li></ul></article>
+          <article class="price-card price-card-featured"><div class="featured-ribbon">MAIS COMPLETO</div><div class="plan-topline"><span class="plan-icon pro-icon">✦</span><span class="plan-label">PARA GANHAR ESCALA</span></div><h3>Pro</h3><p class="plan-description">Para equipes que precisam de contexto, integração e visão compartilhada.</p><div class="price-line"><span class="currency">R$</span><strong id="price-pro">89</strong><span class="period" id="period-pro">/mês</span></div><p class="billing-note" id="note-pro">Cobrança mensal, sem fidelidade.</p><button class="button button-lime open-modal" data-plan="Pro" type="button">Conhecer o Pro <span>↗</span></button><div class="plan-divider"></div><p class="includes-title">Tudo do Starter, mais</p><ul class="plan-list"><li><span>✓</span> Projetos ilimitados</li><li><span>✓</span> Relatórios e análises avançadas</li><li><span>✓</span> Integrações demonstrativas</li><li><span>✓</span> Visões de equipe personalizadas</li><li><span>✓</span> Suporte prioritário</li></ul></article>
+        </div>
+        <p class="pricing-footnote"><span>ⓘ</span> Projeto demonstrativo: planos, valores e cadastro são ilustrativos e não representam uma oferta comercial ativa.</p>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="container faq-layout"><div class="faq-intro"><span class="eyebrow">DÚVIDAS COMUNS</span><h2>Alguma pergunta?<br><span>Vamos esclarecer.</span></h2><p>Respostas rápidas para entender a proposta do Nexus e o que esta demonstração representa.</p><a href="#planos" class="text-link">Conheça os planos <span>↗</span></a></div><div class="faq-list">
+        <article class="faq-item"><h3><button class="faq-question" aria-expanded="false" aria-controls="faq-answer-1">O que é o Nexus?<span class="faq-plus" aria-hidden="true"></span></button></h3><div class="faq-answer" id="faq-answer-1" aria-hidden="true"><p>É o conceito de uma plataforma SaaS para organizar projetos, tarefas, colaboração e indicadores. Esta página apresenta uma demonstração visual da experiência.</p></div></article>
+        <article class="faq-item"><h3><button class="faq-question" aria-expanded="false" aria-controls="faq-answer-2">O cadastro e o teste grátis são reais?<span class="faq-plus" aria-hidden="true"></span></button></h3><div class="faq-answer" id="faq-answer-2" aria-hidden="true"><p>Não. O formulário e o fluxo de seleção de plano são interações de demonstração. Nenhuma conta é criada, nenhum pagamento é processado e os dados não são enviados a um servidor.</p></div></article>
+        <article class="faq-item"><h3><button class="faq-question" aria-expanded="false" aria-controls="faq-answer-3">Posso alternar a cobrança mensal e anual?<span class="faq-plus" aria-hidden="true"></span></button></h3><div class="faq-answer" id="faq-answer-3" aria-hidden="true"><p>Sim. Use o seletor na seção de planos para alternar os valores demonstrativos. O valor anual é uma simulação com desconto estimado de 20%.</p></div></article>
+        <article class="faq-item"><h3><button class="faq-question" aria-expanded="false" aria-controls="faq-answer-4">A página é responsiva?<span class="faq-plus" aria-hidden="true"></span></button></h3><div class="faq-answer" id="faq-answer-4" aria-hidden="true"><p>Sim. A estrutura se adapta a telas grandes, tablets e celulares, com navegação móvel, cards reorganizados e componentes de formulário acessíveis.</p></div></article>
+      </div></div>
+    </section>
+
+    <section class="closing-cta section-dark"><div class="container closing-inner"><div class="closing-spark" aria-hidden="true">✳</div><span class="eyebrow eyebrow-light">SEU PRÓXIMO CAPÍTULO COMEÇA AQUI</span><h2>Faça o trabalho<br><span>avançar de verdade.</span></h2><p>Experimente a proposta do Nexus nesta demonstração de interface.</p><button class="button button-lime open-modal" data-plan="Pro" type="button">Explorar a demonstração <span aria-hidden="true">↗</span></button><small>Projeto de portfólio · Sem cadastro ou pagamento real</small></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-top"><a class="brand brand-footer" href="#topo"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7 7.5h7.2a4.8 4.8 0 0 1 4.8 4.8v12.2H12a5 5 0 0 1-5-5V7.5Z" fill="currentColor"/><path d="M25 24.5h-7.2a4.8 4.8 0 0 1-4.8-4.8V7.5H20a5 5 0 0 1 5 5v12Z" fill="#B8F36B"/></svg></span><span class="brand-name">nexus<span>.io</span></span></a><p>Uma demonstração de landing page SaaS para portfólio.</p><a href="#topo" class="back-top">Voltar ao topo ↑</a></div><div class="container footer-bottom"><span>© <span id="current-year">2026</span> Nexus. Projeto demonstrativo.</span><span>Construído com HTML, CSS e JavaScript.</span></div></footer>
+
+  <div class="modal" id="demo-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description">
+      <button class="modal-close" type="button" aria-label="Fechar janela" data-close-modal>×</button>
+      <div class="modal-logo"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7 7.5h7.2a4.8 4.8 0 0 1 4.8 4.8v12.2H12a5 5 0 0 1-5-5V7.5Z" fill="currentColor"/><path d="M25 24.5h-7.2a4.8 4.8 0 0 1-4.8-4.8V7.5H20a5 5 0 0 1 5 5v12Z" fill="#B8F36B"/></svg></span></div>
+      <span class="eyebrow">PRÉVIA INTERATIVA</span><h2 id="modal-title">Conheça o Nexus</h2><p id="modal-description" class="modal-description">Informe seus dados para experimentar a interação demonstrativa. Nenhuma informação será enviada ou armazenada.</p>
+      <div class="selected-plan-box">Plano selecionado <strong id="selected-plan">Pro</strong></div>
+      <form id="demo-form" novalidate>
+        <div class="form-field"><label for="full-name">Nome</label><input id="full-name" name="name" type="text" autocomplete="name" placeholder="Como podemos te chamar?" required minlength="2"><span class="field-error" id="name-error"></span></div>
+        <div class="form-field"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" placeholder="voce@exemplo.com" required><span class="field-error" id="email-error"></span></div>
+        <button class="button button-dark button-full" type="submit">Testar interação <span aria-hidden="true">↗</span></button>
+      </form>
+      <div class="form-success" id="form-success" role="status" tabindex="-1" hidden><span>✓</span><div><strong>Interação concluída!</strong><p>Este fluxo é uma simulação de portfólio. Nenhuma conta foi criada nem seus dados foram enviados.</p></div></div>
+      <p class="modal-privacy">Demonstração local · sem backend · sem pagamentos</p>
+    </section>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
