@@ -26,12 +26,3 @@ Landing page responsiva para uma plataforma SaaS fictícia de gestão de projeto
 ## Nota da demonstração
 
 O Nexus é um conceito fictício para apresentação de interface. Não existe backend conectado: cadastro, preços, métricas e integrações são demonstrativos. Nenhum dado do formulário é enviado ou armazenado, e nenhum pagamento é processado.
-
-## Publicação no GitHub Pages
-
-1. Envie `index.html`, `style.css`, `script.js` e este README para a raiz do repositório.
-2. Abra **Settings → Pages**.
-3. Selecione a branch principal e a pasta `/(root)`.
-4. Salve e aguarde o GitHub Pages publicar a página.
-
-O GitHub Pages usará `index.html`, que carrega `style.css` e `script.js` da mesma pasta. `index-standalone.html` é uma alternativa autônoma para pré-visualização local.
